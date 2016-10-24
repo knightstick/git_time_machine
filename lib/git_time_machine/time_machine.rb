@@ -3,7 +3,7 @@ require 'git_time_machine/flux_capacitor'
 
 module GitTimeMachine
   class TimeMachine
-    extend Forwardable
+    extend ::Forwardable
 
     def_delegators :@delorean, :velocity
 
