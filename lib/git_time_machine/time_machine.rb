@@ -18,12 +18,21 @@ module GitTimeMachine
       delorean.accelerate(88)
     end
 
-    def back_to(time_string)
-      raise "BOOM"
-    end
-
     def flux_capacitated?
       flux_capacitor.capacitated?
+    end
+
+    def back_to(year_string)
+      year = year_string.to_i
+      now = Time.now
+      new_time_space_continuum = Time.new(
+        year, now.month, now.day, now.hour, now.min, now.sec
+      )
+
+      puts "*********************************************"
+      puts "Time Travel Succeeded"
+      puts "*********************************************"
+      puts "The Time Now is: #{new_time_space_continuum.strftime("%I:%M%p on %A %d %B %Y")}"
     end
 
     private
