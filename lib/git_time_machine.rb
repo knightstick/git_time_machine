@@ -1,5 +1,9 @@
 require "git_time_machine/version"
 
 module GitTimeMachine
-  # Your code goes here...
+  module TravelThroughTime
+    def self.travel_through_time
+      raise NotImplementedError, "TODO"
+    end
+  end
 end
