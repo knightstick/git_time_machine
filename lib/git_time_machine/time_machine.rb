@@ -1,3 +1,4 @@
+require 'forwardable'
 require 'git_time_machine/delorean'
 require 'git_time_machine/flux_capacitor'
 
