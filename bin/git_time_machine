@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'git_time_machine'
+
+GitTimeMachine::TravelThroughTime.travel_through_time
