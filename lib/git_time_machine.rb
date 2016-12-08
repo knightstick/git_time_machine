@@ -31,7 +31,7 @@ module GitTimeMachine
         print '.'
       end
 
-      puts "\nFlux status: #{time_machine.flux_capacitated?}"
+      puts "\nFlux status: Capacitate!!!"
 
       print "Checking velocity"
       3.times do
